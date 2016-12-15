@@ -6,8 +6,6 @@ def index(request):
 	context = {
 		"courses": courses
 	}
-	print courses
-
 	return render(request, 'courses_app/index.html', context)
 
 def process(request):
